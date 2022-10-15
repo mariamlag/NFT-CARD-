@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d192c;
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+  }
+
+.container{
+    height: 596px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    padding: 24px;
+  
+}
+
+.Equilibrium{
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+
+.equi{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 24px 24px 16px 0px;
+    border-radius: nullpx;
+    cursor: pointer;
+
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.collection{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    margin: 0px 0px 24px 0px;
+  }
+
+.alltext {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.clock{
+    display: flex;
+}
+.ethereum{
+    display: flex;
+}
+.eth{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #00FFF8;
+    height: 20px;
+}
+
+.days{
+    color: #8BACD9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+hr{
+    height: 1px;
+    border: 0;
+    margin: 24px 0 16px 0;
+    border-top: 1px solid #2E405A;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.image-avatar{
+    width: 33px;
+    border-radius: 50%;    
+    border: 1px solid #FFFFFF;
+    margin-right: 16px;
+}
+
+.Creation{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8BACD9;
+    text-align: left;
+}
+a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.view{
+    position: absolute;
+    border-radius: 8px;
+    opacity: 0;
+    padding: 127px;
+    cursor: pointer;
+}
+img{
+    opacity: 1.0;
+}
+  img:hover {
+    opacity: 0.5;
+    background: #00FFF8;
+  }
+ h1:hover {
+     opacity: 1;
+     color: #00FFF8;
+ }
+
+ .jul:hover{
+     opacity: 1;
+     color: #00FFF8;
+ }
